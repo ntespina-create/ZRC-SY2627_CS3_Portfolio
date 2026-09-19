@@ -11,9 +11,6 @@ class Course:
 
     def add_student(self, student):
         self.students.append(student)
-
-
-# Get inputs from user
 course_name = input("Enter course name: ")
 course = Course(course_name)
 
@@ -24,8 +21,6 @@ for i in range(num):
     student_id = input("Enter student ID: ")
     student = Student(name, student_id)
     course.add_student(student)
-
-# Print enrolled student names
 print("\nEnrolled Students in", course.course_name + ":")
-for s in course.students:
-    print("-", s.name)
+for n in course.students:
+    print("-", n.name)
