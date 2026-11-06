@@ -1,0 +1,8 @@
+1. What do all the methods (move(), special_move(), use()) in the previous activities have in
+common?
+-They share identical names across different classes to create a uniform interface, allowing the same function call to trigger different actions depending on the object.   
+2. How does this activity show polymorphism in a gaming context?
+-It demonstrates how a single game loop can cycle through a list of diverse entities and run a standard command like use() or special_move(), letting each item or character perform its unique behavior automatically.
+3. Can you think of other examples where the same action behaves differently depending on
+the character or item?
+-An attack() method triggers a sword swing for a knight, an arrow shot for an archer, or a fireball for a mage. Similarly, an interact() command opens a treasure chest, talks to a non-player character, or unlocks a door depending on what the player targets.
