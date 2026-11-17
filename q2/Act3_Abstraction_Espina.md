@@ -1,0 +1,1 @@
+Snippet B is the only one that will actually run because PHMeter properly defines its own get_data() method. Snippet A crashes with a TypeError since TempSensor forgot to include get_data(), and Snippet C crashes with a TypeError because you aren't allowed to create an object directly from the abstract Sensor class.
